@@ -1,0 +1,344 @@
+Script started on 2020-04-10 18:17:47-0700
+greenwr5@linux-05:~$ mkdir csci241
+greenwr5@linux-05:~$ cd csci241
+greenwr5@linux-05:~/csci241$ git clone ssh -p922 ${username}@linux.cs.wwu.edu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/csci241-20s/lab-1-Ryan--Greenwalt.git
+Cloning into 'lab-1-Ryan-Greenwalt'...
+remote: Enumerating objects: 14, done.[K
+remote: Counting objects:   7% (1/14)[Kremote: Counting objects:  14% (2/14)[Kremote: Counting objects:  21% (3/14)[Kremote: Counting objects:  28% (4/14)[Kremote: Counting objects:  35% (5/14)[Kremote: Counting objects:  42% (6/14)[Kremote: Counting objects:  50% (7/14)[Kremote: Counting objects:  57% (8/14)[Kremote: Counting objects:  64% (9/14)[Kremote: Counting objects:  71% (10/14)[Kremote: Counting objects:  78% (11/14)[Kremote: Counting objects:  85% (12/14)[Kremote: Counting objects:  92% (13/14)[Kremote: Counting objects: 100% (14/14)[Kremote: Counting objects: 100% (14/14), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+greenwr5@linux-05:~/csci241$ ls
+lab-1-Ryan-Greenwalt
+greenwr5@linux-05:~/csci241$ cd lab-1-Ryan-Greenwalt/
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git config --global user.name  Ryan Greenwalt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git config --global user.email  greenwr5@wwu.edu
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ touch writeup.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git add writeup.txt # run "git  help add" for[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git commit -m "Added empty wri teup"
+[master 4fadf7c] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git push [K
+Username for 'https://github.com': Ryan-Greena walt
+Password for 'https://Ryan-Greenwalt@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 273 bytes | 273.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Ryan-Greenwalt.git
+   06da35c..4fadf7c  master -> master
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ nano
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.9.3                      New Buffer                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write:                                                             [22;1H(B[m[22;21H[?12l[?25h[?25l(B[0;7mw(B[m[22;22H[?12l[?25h[?25l(B[0;7mr(B[m[22;23H[?12l[?25h[?25l(B[0;7mi(B[m[22;24H[?12l[?25h[?25l(B[0;7mt(B[m[22;25H[?12l[?25h[?25l(B[0;7me(B[m[22;26H[?12l[?25h[?25l(B[0;7mu(B[m[22;27H[?12l[?25h[?25l(B[0;7mp(B[m[22;28H[?12l[?25h[?25l(B[0;7m.(B[m[22;29H[?12l[?25h[?25l(B[0;7mt(B[m[22;30H[?12l[?25h[?25l(B[0;7mx(B[m[22;31H[?12l[?25h[?25l(B[0;7mt(B[m[22;32H[?12l[?25h[?25l[6G(B[0;7m"writeup.txt" exists; OVERWRITE?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;39H[?12l[?25h[?25l[1;79H[1;38H[39;49m(B[0;7mwriteup.txt[79G(B[m[22;31H[1K (B[0;7m[ Wrote 0 lines ](B[m[K[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3d1[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lR[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lw[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;58r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.9.3                     writeup.txt                      Modified  [3d(B[m1) Ryan Greenwalt[22;32H(B[0;7m[ Wrote 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3;18H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.9.3                     writeup.txt                      Modified  [3d(B[m1) Ryan Greenwalt[22;32H(B[0;7m[ Wrote 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[57d[1;38H(B[0;7m            writeup.txt[1;71H                       Modified  [1;102H(B[m[22d[K[23d[K[24d[K[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[?25l[3;18H[?12l[?25h[?25l[?12l[?25h[?25l[56d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                          [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[56;63H[?12l[?25h[?25l[57d(B[0;7m^G(B[m Get Help[57;26H(B[0;7mM-D(B[m DOS Format[57;51H(B[0;7mM-A(B[m Append[57;76H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[58;51H(B[0;7mM-P(B[m Prepend[58;76H(B[0;7m^T(B[m To Files[56d(B[0;7mFile Name to Write: writeup.txt                              (B[m[56;32H[?12l[?25h[?25l[K[1;102H[1;94H(B[0;7m        (B[m[56;44H(B[0;7m[ Wrote 1 line ](B[m[J[58;103H[?12l[?25h[58;1H[?1049l[23;0;0t[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git add writeup.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git commit -m "Added part 1 (names) to writeup)[K"
+[master e1f4c96] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git push
+Username for 'https://github.com': Ryan-Greenwalt
+Password for 'https://Ryan-Greenwalt@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Ryan-Greenwalt.git
+   4fadf7c..e1f4c96  master -> master
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ a[Knano
+[?1049h[22;0;0t[1;58r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.9.3                                 New Buffer                                            [1;102H(B[m[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[39;49m(B[m[?12l[?25h[?25l[57;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[57;76H(B[0;7mM-B(B[m Backup File[K[58;2H(B[0;7mC(B[m Cancel[16X[58;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[58;76H(B[0;7m^T(B[m To Files[K[56d(B[0;7mFile Name to Write:                                                                                    [56;1H(B[m[56;21H[?12l[?25h[?25l(B[0;7mw(B[m[56;22H[?12l[?25h[?25l(B[0;7mr(B[m[56;23H[?12l[?25h[?25l(B[0;7mi(B[m[56;24H[?12l[?25h[?25l(B[0;7mt(B[m[56;25H[?12l[?25h[?25l(B[0;7me(B[m[56;26H[?12l[?25h[?25l(B[0;7mu(B[m[56;27H[?12l[?25h[?25l(B[0;7mp(B[m[56;28H[?12l[?25h[?25l(B[0;7m.(B[m[56;29H[?12l[?25h[?25l(B[0;7mt(B[m[56;30H[?12l[?25h[?25l(B[0;7mx(B[m[56;31H[?12l[?25h[?25l(B[0;7mt(B[m[56;32H[?12l[?25h[?25l[6G(B[0;7m"writeup.txt" exists; OVERWRITE?[57d Y(B[m Yes[K[58d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[56;39H[?12l[?25h[?25l[1;102H[1;50H[39;49m(B[0;7mwriteup.txt[102G(B[m[56;43H[1K (B[0;7m[ Wrote 0 lines ](B[m[K[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[?12l[?25h[?25l[?12l[?25h[?25l[1;94H(B[0;7mModified(B[m[3d1[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lR[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lw[?12l[?25h[?25la[?12l[?25h[?25l;[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25l[4d[?12l[?25h[?25l2[?12l[?25h[?25l)[?12l[?25h[?25l[56d[K[4;4H[?12l[?25h[?25lH[?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25lu[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l.[?12l[?25h[?25l [?12l[?25h[?25l[56d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                          [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[56;63H[?12l[?25h[?25l[57d(B[0;7m^G(B[m Get Help[57;26H(B[0;7mM-D(B[m DOS Format[57;51H(B[0;7mM-A(B[m Append[57;76H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[58;51H(B[0;7mM-P(B[m Prepend[58;76H(B[0;7m^T(B[m To Files[56d(B[0;7mFile Name to Write: writeup.txt                              (B[m[56;32H[?12l[?25h[?25l[K[1;102H[1;94H(B[0;7m        (B[m[56;44H(B[0;7m[ Wrote 2 lines ](B[m[J[58;103H[?12l[?25h[58;1H[?1049l[23;0;0t[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git add writeup.y[Ktxt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git commit -m "Added part 2 (hobby) to writeup"
+[master 2e625b6] Added part 2 (hobby) to writeup
+ 1 file changed, 1 insertion(+)
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git push
+Username for 'https://github.com': Ryan_ -Greenwalt
+Password for 'https://Ryan-Greenwalt@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Ryan-Greenwalt.git
+   e1f4c96..2e625b6  master -> master
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ touc[Kch username.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ nano
+[?1049h[22;0;0t[1;58r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.9.3                                 New Buffer                                            [1;102H(B[m[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[39;49m(B[m[?12l[?25h[?25l[57;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[57;76H(B[0;7mM-B(B[m Backup File[K[58;2H(B[0;7mC(B[m Cancel[16X[58;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[58;76H(B[0;7m^T(B[m To Files[K[56d(B[0;7mFile Name to Write:                                                                                    [56;1H(B[m[56;21H[?12l[?25h[?25l(B[0;7mu(B[m[56;22H[?12l[?25h[?25l(B[0;7ms(B[m[56;23H[?12l[?25h[?25l(B[0;7me(B[m[56;24H[?12l[?25h[?25l(B[0;7mr(B[m[56;25H[?12l[?25h[?25l(B[0;7mn(B[m[56;26H[?12l[?25h[?25l(B[0;7ma(B[m[56;27H[?12l[?25h[?25l(B[0;7mm(B[m[56;28H[?12l[?25h[?25l(B[0;7me(B[m[56;29H[?12l[?25h[?25l(B[0;7m.(B[m[56;30H[?12l[?25h[?25l(B[0;7mt(B[m[56;31H[?12l[?25h[?25l(B[0;7mx(B[m[56;32H[?12l[?25h[?25l(B[0;7mt(B[m[56;33H[?12l[?25h[?25l[6G(B[0;7m"username.txt" exists; OVERWRITE?[57d Y(B[m Yes[K[58d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[56;40H[?12l[?25h[?25l[1;102H[1;49H[39;49m(B[0;7musername.txt[102G(B[m[56;43H[1K (B[0;7m[ Wrote 0 lines ](B[m[K[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[?12l[?25h[?25l[1;94H(B[0;7mModified(B[m[3dR[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lw[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25l,[?12l[?25h[?25lg[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lw[?12l[?25h[?25lr[?12l[?25h[?25l5[?12l[?25h[?25l,[?12l[?25h[?25lR[?12l[?25h[?25ly[56d[K[3;27H[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l-[?12l[?25h[?25lG[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lw[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25l[56d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                          [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[56;63H[?12l[?25h[?25l[57d(B[0;7m^G(B[m Get Help[57;26H(B[0;7mM-D(B[m DOS Format[57;51H(B[0;7mM-A(B[m Append[57;76H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[58;51H(B[0;7mM-P(B[m Prepend[58;76H(B[0;7m^T(B[m To Files[56d(B[0;7mFile Name to Write: username.txt                             (B[m[56;33H[?12l[?25h[?25l[K[1;102H[1;94H(B[0;7m        (B[m[56;44H(B[0;7m[ Wrote 1 line ](B[m[J[58;103H[?12l[?25h[58;1H[?1049l[23;0;0t[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git add username.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git commit -m "Created and edited username"
+[master aca4f42] Created and edited username
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git push
+Username for 'https://github.com': Ryan-Greenwaly ty 
+Password for 'https://Ryan-Greenwalt@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 314 bytes | 314.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Ryan-Greenwalt.git
+   2e625b6..aca4f42  master -> master
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git log
+[?1h=[33mcommit aca4f42e701085212959512d06a04f6780d10c82[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Ryan Greenwalt <greenwr5@wwu.edu>[m
+Date:   Fri Apr 10 18:41:27 2020 -0700[m
+[m
+    Created and edited username[m
+[m
+[33mcommit 2e625b6f75406193f726ee7eb5701f34d8356e03[m[m
+Author: Ryan Greenwalt <greenwr5@wwu.edu>[m
+Date:   Fri Apr 10 18:36:21 2020 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit e1f4c96a2aefc137e67b54aff8cd69ddc3c2a473[m[m
+Author: Ryan Greenwalt <greenwr5@wwu.edu>[m
+Date:   Fri Apr 10 18:32:55 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 4fadf7c5f83acbc22d0b53b724481028555af251[m[m
+Author: Ryan Greenwalt <greenwr5@wwu.edu>[m
+Date:   Fri Apr 10 18:24:49 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 06da35cb2a9aabdeabdaa82d91b721b2af0bc2ae[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Fri Apr 10 18:18:11 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 4bdc2513e716ec9d1795173030df915c6bde4f70[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Fri Apr 10 18:18:10 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 515495675c98e818e3c1dfd3a2c610a465f3e5d4[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Fri Apr 10 18:18:09 2020 -0700[m
+[m
+    Initial commit[m
+[K[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git id[K[Kdiff
+[?1h=[K[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git diff
+[?1h=[K[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git checkout -b question3
+Switched to a new branch 'question3'
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ nano
+[?1049h[22;0;0t[1;58r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.9.3                                 New Buffer                                            [1;102H(B[m[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[39;49m(B[m[?12l[?25h[?25l[57;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[57;76H(B[0;7mM-B(B[m Backup File[K[58;2H(B[0;7mC(B[m Cancel[16X[58;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[58;76H(B[0;7m^T(B[m To Files[K[56d(B[0;7mFile Name to Write:                                                                                    [56;1H(B[m[56;21H[?12l[?25h[?25l(B[0;7mw(B[m[56;22H[?12l[?25h[?25l(B[0;7mr(B[m[56;23H[?12l[?25h[?25l(B[0;7mi(B[m[56;24H[?12l[?25h[?25l(B[0;7mt(B[m[56;25H[?12l[?25h[?25l(B[0;7me(B[m[56;26H[?12l[?25h[?25l(B[0;7mu(B[m[56;27H[?12l[?25h[?25l(B[0;7mp(B[m[56;28H[?12l[?25h[?25l(B[0;7m.(B[m[56;29H[?12l[?25h[?25l(B[0;7mt(B[m[56;30H[?12l[?25h[?25l(B[0;7mx(B[m[56;31H[?12l[?25h[?25l(B[0;7mt(B[m[56;32H[?12l[?25h[?25l[6G(B[0;7m"writeup.txt" exists; OVERWRITE?[57d Y(B[m Yes[K[58d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[56;39H[?12l[?25h[?25l[1;102H[1;50H[39;49m(B[0;7mwriteup.txt[102G(B[m[56;43H[1K (B[0;7m[ Wrote 0 lines ](B[m[K[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[?12l[?25h[?25l[1;94H(B[0;7mModified(B[m[3d1[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lR[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lw[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25l[4d[?12l[?25h[?25l2[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25lb[?12l[?25h[?25ly[56d[K[4;9H[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25lu[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l[5d[?12l[?25h[?25l[36m#[39m(B[m[?12l[?25h[?25l[36m:[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l3[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25lMe Harder[5;24H[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[6d[?12l[?25h[?25l[5;32H[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lM[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[56d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                          [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[56;63H[?12l[?25h[?25l[57d(B[0;7m^G(B[m Get Help[57;26H(B[0;7mM-D(B[m DOS Format[57;51H(B[0;7mM-A(B[m Append[57;76H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[58;51H(B[0;7mM-P(B[m Prepend[58;76H(B[0;7m^T(B[m To Files[56d(B[0;7mFile Name to Write: writeup.txt                              (B[m[56;32H[?12l[?25h[?25l[K[1;102H[1;94H(B[0;7m        (B[m[56;44H(B[0;7m[ Wrote 3 lines ](B[m[J[58;103H[?12l[?25h[58;1H[?1049l[23;0;0t[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git add writeup.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git commit -m "Added favorite song o[Kto writeup"
+[question3 84d03dd] Added favorite song to writeup
+ 1 file changed, 1 insertion(+)
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ g[Kgit checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git merge question3
+Updating aca4f42..84d03dd
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git pu[K[Kstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git push
+Username for 'https://github.com': Ryan_G  -Greenwalt
+Password for 'https://Ryan-Greenwalt@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Ryan-Greenwalt.git
+   aca4f42..84d03dd  master -> master
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git branch -d question3
+Deleted branch question3 (was 84d03dd).
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ cd[K[Kgradle build
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [91ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [191ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [291ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [391ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [491ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [591ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [691ms][m[39D[1B[1m> Evaluating settings > Compiling /home/greenwr5/csci241/lab-1-Ryan-Greenwalt/settings.gradle into loc[m[102D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [791ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [891ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [991ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [1s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[1A[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [2s][m[37D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[2B
+
+
+[4A[1m> :compileJava > Resolve dependencies of :compileClasspath > checker-qual-2.5.2.pom[m[83D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.pom[m[96D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > jsr305-3.0.2.pom[m[77D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > error_prone_annotations-2.1.3.pom[m[94D[1B[4A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[4A[1m> :compileJava > Resolve files of :compileClasspath > checker-qual-2.5.2.jar > 47 KB/188 KB downloaded[m[102D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar[m[72D[2B[1m> :compileJava > Resolve files of :compileClasspath > jsr305-3.0.2.jar[m[70D[1B[4A> IDLE[0K[6D[3B> IDLE[0K[6D[1B[3A[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar > 1.23 MB/2.61 MB downloaded[m[101D[3B[3A[1m> :compileJava > Resolve files of :compileClasspath[m[0K[51D[3B[3A[1m> :compileJava[m[0K[14D[3B[5A[1m<[0;1m-------------> 0% EXECUTING [4s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [5s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [6s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [7s][m[33D[5B[5A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [7s][m[34D[2B[1m> :startScripts > Resolve dependencies of :runtimeClasspath[m[59D[3B[5A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [8s][m[34D[2B[1m> :startScripts[m[0K[15D[3B[5A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [8s][m[34D[2B[1m> :distTar[m[0K[10D[3B[5A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [8s][m[34D[2B[1m> :distZip[m[10D[3B[5A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 10s
+5 actionable tasks: 5 executed
+[2B[0K
+[0K
+[0K
+[5A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[5A[2K[1B[2K[1B[2K[1B[2K[1B[2K[4A[0m[?12l[?25hgreenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ d[Kgradle run
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [97ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 709ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hgreenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ ls
+build  build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ cd r[Ksrc
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src$ cd main
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main$ cd java
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main/java$ cd lab1
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main/java/lab1$ ls
+Hello.java
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main/java/lab1$ nano
+[?1049h[22;0;0t[1;58r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.9.3                                 New Buffer                                            [1;102H(B[m[57d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3d[39;49m(B[m[?12l[?25h[?25l[57;15H[20X[57;35H(B[0;7m^X(B[m Execute Command[16X[57;69H(B[0;7m^T(B[m To Files[K[58;2H(B[0;7mC(B[m Cancel[25X[58;35H(B[0;7mM-F(B[m New Buffer[K[56d(B[0;7mFile to insert [from ./]:                                                                              [56;1H(B[m[56;27H[?12l[?25h[?25l(B[0;7mH(B[m[56;28H[?12l[?25h[?25l(B[0;7me(B[m[56;29H[?12l[?25h[?25l(B[0;7ml(B[m[56;30H[?12l[?25h[?25l(B[0;7ml(B[m[56;31H[?12l[?25h[?25l(B[0;7mo(B[m[56;32H[?12l[?25h[?25l(B[0;7m.(B[m[56;33H[?12l[?25h[?25l(B[0;7mj(B[m[56;34H[?12l[?25h[?25l(B[0;7ma(B[m[56;35H[?12l[?25h[?25l(B[0;7mv(B[m[56;36H[?12l[?25h[?25l(B[0;7ma(B[m[56;37H[?12l[?25h[?25l[43G[1K (B[0;7m[ Reading File ](B[m[K[56;50H(B[0;7m 7 lines ](B[m[1;94H(B[0;7mModified(B[m[57;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo[58;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo[56d[3dpackage lab1;[5dpublic class Hello {[6;3Hpublic static void main(String[] args) {[7;5HSystem.out.println("Hello, world!");[8;3H}[9d}[10d[?12l[?25h[?25l[A[?12l[?25h[?25l}[?12l[?25h[?25l[10d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[56d[K[7;21H[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l"[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l![?12l[?25h[?25l"[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l );[?12l[?25h[?25l");[?12l[?25h[?25l );[?12l[?25h[?25l+);[?12l[?25h[?25l );[?12l[?25h[?25la);[?12l[?25h[?25lr);[?12l[?25h[?25lg);[?12l[?25h[?25ls);[?12l[?25h[?25l[);[?12l[?25h[?25l0);[?12l[?25h[?25l]);[?12l[?25h[?25l[56d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                          [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[56;63H[?12l[?25h[?25l[57d(B[0;7m^G(B[m Get Help[57;26H(B[0;7mM-D(B[m DOS Format[57;51H(B[0;7mM-A(B[m Append[57;76H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[58;51H(B[0;7mM-P(B[m Prepend[58;76H(B[0;7m^T(B[m To Files[56d(B[0;7mFile Name to Write:                                          (B[m[56;21H[?12l[?25h[?25l(B[0;7mH(B[m[56;22H[?12l[?25h[?25l(B[0;7me(B[m[56;23H[?12l[?25h[?25l(B[0;7ml(B[m[56;24H[?12l[?25h[?25l(B[0;7ml(B[m[56;25H[?12l[?25h[?25l(B[0;7mo(B[m[56;26H[?12l[?25h[?25l(B[0;7m.(B[m[56;27H[?12l[?25h[?25l(B[0;7mj(B[m[56;28H[?12l[?25h[?25l(B[0;7ma(B[m[56;29H[?12l[?25h[?25l(B[0;7mv(B[m[56;30H[?12l[?25h[?25l(B[0;7ma(B[m[56;31H[?12l[?25h[?25l[6G(B[0;7m"Hello.java" exists; OVERWRITE?[57d Y(B[m Yes[K[58d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[56;38H[?12l[?25h[?25l[1;102H[1;50H[39;49m(B[0;7mHello.java[1;94H        (B[m[56;43H[1K (B[0;7m[ Wrote 7 lines ](B[m[K[J[58;103H[?12l[?25h[58;1H[?1049l[23;0;0t[?1l>greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main/java/lab1$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [5ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/greenwr5/csci241/lab-1-Ryan-Greenwalt/src/main/java/lab1' is not part of the build defined by settings file '/home/greenwr5/csci241/lab-1-Ryan-Greenwalt/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 543ms
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hgreenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main/java/lab1$ cd ..
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main/java$ cd ..
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src/main$ cd ..
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt/src$ cd ..
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [12ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [112ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [212ms][m[36D[2B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [312ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [412ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [512ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hgreenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ gradle run --args"241"
+
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args241'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 563ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hgreenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ gradle run --args"241"[C[C="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [11ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [111ms][m[0K[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 667ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hgreenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git add src/main/jaa[Kva/lab1/Hello.java
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git commit -m "Hello not prints[1P printsw prints[C[C[C[C[C[C[C command line arg"
+[master 9621275] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ git push
+Username for 'https://github.com': Ryan-Greenwalt
+Password for 'https://Ryan-Greenwalt@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 489 bytes | 244.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/csci241-20s/lab-1-Ryan-Greenwalt.git
+   84d03dd..9621275  master -> master
+greenwr5@linux-05:~/csci241/lab-1-Ryan-Greenwalt$ exit
+exit
+
+Script done on 2020-04-10 19:03:45-0700
